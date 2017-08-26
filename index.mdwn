@@ -4,6 +4,8 @@
 [[!inline pages=sidebar raw=yes]]
 """]]
 
+Welcome to my wiki, which is mainly a blog-thing.
+
 [[!inline pages="page(./posts/*) and !*/Discussion" show="10"
 actions=yes rootpage="posts"]]
 
