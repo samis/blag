@@ -4,7 +4,7 @@ I've given a number of configuration management tools a whirl - Puppet, Chef, Sa
 Chef and Puppet started nice, but seemed complex to use given my small needs.
 Salt and Ansible had potential and features unique to either, but I've never liked using YAML syntax, and this showed.
 
-Recently I've loooked into [Propellor](https://propellor.branchable.com/), a configuration management system written in Haskell with the interface being a DSL in the same language.
+Recently I've looked into [Propellor](https://propellor.branchable.com/), a configuration management system written in Haskell with the interface being a DSL in the same language.
 I've never been a Haskeller, indeed I'm an unrepentant fan of Smalltalk's beautiful OO simplicity - so why?
 
 1. The provided DSL looked interesting and readable. More readable than YAML at any rate (and likely the DSLs of the other two)
@@ -26,11 +26,11 @@ I then tried installing an additional package that contained the static librarie
 # Getting weirder and crazier...
 
 My next plan was very weird: Taking the Debian packaged binaries and running them on my system. This worked when in my home directory....but magically stopped working when installed system-wide (??)
-The one that actuallly succeeded (the most) was simpler: Grab a generic binary release tarball and extract it into /usr/local. This actually worked, no linking errors woo!
+The one that actually succeeded (the most) was simpler: Grab a generic binary release tarball and extract it into /usr/local. This actually worked, no linking errors woo!
 
 # Close, but no cigar..yet
 This meant the compiler was actually working, but when it came to install the software, the newer compiler meant I had to use a newer snapshot of packages.
-This brought dependency problems, which could be solved by compiling and instlling another program.
+This brought dependency problems, which could be solved by compiling and installing another program.
 I did what was needed, and the program was compiling. The speed was slow, much slower than the my 'hello world' tests.
 
 And then, in the middle, it hung. It still answered ping requests, but I couldn't type or SSH in.
@@ -39,4 +39,4 @@ Nor did it come up when connected via Ethernet.
 
 What was wrong? Plugging in a HDMI cable told me that, and it was 'fsck: UNEXPECTED INCONSISTENCY. Run fsck manually.'
 I couldn't properly handle this because the receiver for my USB keyboard was godknowswhere.
-I need to handle this offline, which means digging out my laptop and using it's sdcard slot. I think i'll take the opportunity to downgrade the compiler while I'm at it. Maybe pre-compile some software if the emulation isn't too bad.
+I need to handle this offline, which means digging out my laptop and using it's sdcard slot. I think I'll take the opportunity to downgrade the compiler while I'm at it. Maybe pre-compile some software if the emulation isn't too bad.
