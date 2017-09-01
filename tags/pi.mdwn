@@ -1,0 +1,4 @@
+[[!meta title="pages tagged pi"]]
+
+[[!inline pages="tagged(pi)" actions="no" archive="yes"
+feedshow=10]]
