@@ -1,4 +1,4 @@
-[[!meta  title="Propellor and a Raspberry Pi 3" author="samis"]]
+[[!meta title="Propellor and a Raspberry Pi 3" author="samis"]]
 [[!tag tech linux]]
 I've given a number of configuration management tools a whirl - Puppet, Chef, Salt, Ansible.
 Chef and Puppet started nice, but seemed complex to use given my small needs.
@@ -15,7 +15,7 @@ I've never been a Haskeller, indeed I'm an unrepentant fan of Smalltalk's beauti
 I got started, there were and remain some niggles and quirks on the road - for example my VPS needed special bootstrapping attention (interestingly the problem was fixed upstream the same day I worked around it)
 Soon enough two of three boxen of interest had a no-op configuration applied, indicating that the program was working correctly for future usage. But what happened to that third one? It's a long story.
 
-This third box was a Raspberry Pi 3 running [Arch Linux ARM](https://archlinuxarm.org/).
+This third box was my [Raspberry Pi 3](https://cdn.shopify.com/s/files/1/0174/1800/products/Rainbow_1_of_3_47e94e82-ba3a-4804-a280-3140109cd304_1024x1024.jpg?v=1456669057) running [Arch Linux ARM](https://archlinuxarm.org/).
 
 # My attempts
 
