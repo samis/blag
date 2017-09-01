@@ -1,0 +1,4 @@
+[[!meta title="pages tagged old"]]
+
+[[!inline pages="tagged(old)" actions="no" archive="yes"
+feedshow=10]]
