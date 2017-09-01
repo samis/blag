@@ -1,0 +1,4 @@
+[[!meta title="pages tagged bedrock"]]
+
+[[!inline pages="tagged(bedrock)" actions="no" archive="yes"
+feedshow=10]]
