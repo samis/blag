@@ -1,0 +1,4 @@
+[[!meta title="pages tagged myrepos"]]
+
+[[!inline pages="tagged(myrepos)" actions="no" archive="yes"
+feedshow=10]]
