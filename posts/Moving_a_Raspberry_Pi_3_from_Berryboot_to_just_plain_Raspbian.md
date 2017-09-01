@@ -1,3 +1,4 @@
+[[!tag tech linux pi old]]
 For a while now, I've had a Raspberry Pi 3, replacing my original Pi. The Pi, inside of my chosen case looks something like the below image
 
 <img src="https://cdn.shopify.com/s/files/1/0174/1800/products/Rainbow_1_of_3_47e94e82-ba3a-4804-a280-3140109cd304_1024x1024.jpg?v=1456669057" alt="Raspberry PI 3 with Pibow case" width="200" height="200"/>

@@ -1,5 +1,5 @@
 [[!meta title="Propellor and a Raspberry Pi 3" author="samis"]]
-[[!tag tech linux]]
+[[!tag tech linux servers propellor archlinuxarm]]
 I've given a number of configuration management tools a whirl - Puppet, Chef, Salt, Ansible.
 Chef and Puppet started nice, but seemed complex to use given my small needs.
 Salt and Ansible had potential and features unique to either, but I've never liked using YAML syntax, and this showed.

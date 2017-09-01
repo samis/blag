@@ -1,3 +1,4 @@
+[[!tag tech linux gentoo old]]
 I'm not a distro-hopper by any means, but even so I have tested/tasted a number of Linux distributions. 
 Primarily, these have been in the Debian family: X/K/Ubuntu, Debian itself, Raspbian and likely more that I'm forgetting.
 I was recommended and used very happily for a good while Arch Linux (experiments with GNU Guix on it notwithstanding), until my hard drive began dying one day.

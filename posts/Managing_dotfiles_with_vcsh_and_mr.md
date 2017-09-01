@@ -1,3 +1,4 @@
+[[!tag tech linux dotfiles myrepos vcsh old]]
 Over time, a Linux user may customize and configure his environment rather substantially.
 These modifications are stored in a collection of configuration files / data known as 'dotfiles' (because the first letter of many of them is '.').
 For multiple reasons, it is very beneificial if you track, control and synchronise all of your personal dotfiles, a few example reasons include:

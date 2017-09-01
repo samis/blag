@@ -1,3 +1,4 @@
+[[!tag tech linux bedrock old]]
 I am very much a fan of Linux, using it as my primary OS on my computer. Obviously, I have used multiple distributions of it.
 Each distribution has it's own independent software library that is integrated with the package manager and the system as a whole.
 (Note: I am very much aware that Linux From Scratch and similar exists. I'm talking about the general case where *some* form of package manager/management exists. )
