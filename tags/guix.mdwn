@@ -1,0 +1,4 @@
+[[!meta title="pages tagged guix"]]
+
+[[!inline pages="tagged(guix)" actions="no" archive="yes"
+feedshow=10]]
