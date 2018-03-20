@@ -6,7 +6,7 @@
 
 Welcome to my wiki, which is mainly a blog-thing.
 
-[[!inline pages="page(./posts/*) and !*/Discussion" show="10"
+[[!inline pages="page(./posts/*) and !*/Discussion and !tagged(draft)" show="10"
 actions=yes rootpage="posts"]]
 
 
