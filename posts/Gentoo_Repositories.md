@@ -41,3 +41,5 @@ While this section isn't related to either eselect-repository or layman, it is r
 
 # Next?
 While there are not many next steps, the most obvious one is to add support in portage for the sync methods that Layman provides but Portage itself does not. Even though I'm not an expert in Python, this shouldn't be difficult to implement.
+
+(Addendum: Someone in fact already wrote a module for Mercurial syncing, which is one of the two non-git overlay types I use. You can find it on Gentoo's bugzilla and apply it as a user patch, it works perfectly fine in my experience.)
