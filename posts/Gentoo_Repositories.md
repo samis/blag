@@ -2,7 +2,7 @@
 [[!tag tech linux gentoo portage]]
 # Background
 Some time after installing Gentoo, I moved away from syncing the portage tree via Git,  because having history of the repository is nice and as a bonus, the repository can be synchronized from GitHub over HTTPS while rsync uses plain text. 
-Commits in the repository are also GPG-signed, but the current version of portage does not use this to validate the repository [(yet)](https://github.com/gentoo/portage/commit/7a507942b669b6a157612e8f7ce3fe362c39b38f)
+Commits in the repository are also GPG-signed, but the current version of portage does not use this (edit: by default, I rechecked the dates and 2.1.24 *should* have it) to validate the repository [(yet)](https://github.com/gentoo/portage/commit/7a507942b669b6a157612e8f7ce3fe362c39b38f)
 
 However, the official Gentoo package repository is not enough, and even though I use [Bedrock Linux](https://bedrocklinux.org/), it's nice to have packages designed for Gentoo so I use a number of unofficial repositories or overlays to add more packages and the conventional tool to use is [Layman](https://wiki.gentoo.org/wiki/Layman) which has a decent-enough interface and support for a wide variety of methods to sync an overlay - all of the commonly-known OSS version control systems and some others. 
 These overlays are updated at the same time as the official repository via portage (which calls down to layman to do the actual sync).
