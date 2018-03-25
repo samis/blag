@@ -1,4 +1,4 @@
-[!tag tech servers sdf netbsd shell draft]]
+[[!tag tech servers sdf netbsd shell draft]]
 So, I now have a prevalidated (for now) account over at the [Super Dimension Fortress (SDF)](https://sdf.org/). 
 I'll most likely validate it later, but not right now. 
 In this post, I'm going to go over my initial experiences and my thoughts about them. 
