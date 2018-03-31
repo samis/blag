@@ -18,5 +18,15 @@ The menu's prompt is 'FEP Command' and while this seems inconsequential, it is i
 In the 1980s and early 1990s, there were companies that made Lisp Machines, which were and still are very different to modern systems running a UNIX-like or Windows. 
 On these systems, there was a Lisp processor, but in many systems the Lisp CPU was unable to boot the system standalone, so there was an additional processor (or for the later ones, something specially integrated with the main processor) to bootstrap the Lisp one with the rest of the system.
 Symbolics systems, in particular, had a Front End Processor that perfomed this task (as well as other things like handling full system crashes).
-
+SDF is not a Lisp Machine, it has no actual FEP. However, this restricted initial commandline serves similar purposes.
+  * It acts as a minimal 'frontend' to the actual SDF boxen. 
+  * It's used to create new accounts to the system, 'bootstrapping' your access :)
+It's a nice reference or play on words, isn't it?
 # On the System
+As a prevalidated user, you don't get access to a actual shell, instead you get their custom restricted shell, called 'psh'. 
+It has various limitations which will quickly become apparent, especially if you use a very nicely customised zsh environment. 
+A minor detail I noticed is that both 'emacs' and 'nano' end up presenting the same editor: UW Pico 4.10. 
+However, even though the shell is limited you still have the Gopher client and limited usage of lynx.
+There's also the bulletin board and chat systems, both of which I believe are unique to SDF and sdf-eu. 
+While the FEP prompt had a 'software' command, there's also one in psh and surprisingly the results are very different to the ones you get from the same FEP command (much newer, for example). 
+At the time of writing I haven't heavily used either Gopher, the BBS or the chat system, but hopefully that will change (and this post will be on my new SDF gopherhole too).
