@@ -19,8 +19,10 @@ In the 1980s and early 1990s, there were companies that made Lisp Machines, whic
 On these systems, there was a Lisp processor, but in many systems the Lisp CPU was unable to boot the system standalone, so there was an additional processor (or for the later ones, something specially integrated with the main processor) to bootstrap the Lisp one with the rest of the system.
 Symbolics systems, in particular, had a Front End Processor that perfomed this task (as well as other things like handling full system crashes).
 SDF is not a Lisp Machine, it has no actual FEP. However, this restricted initial commandline serves similar purposes.
-  * It acts as a minimal 'frontend' to the actual SDF boxen. 
-  * It's used to create new accounts to the system, 'bootstrapping' your access :)
+
+* It acts as a minimal 'frontend' to the actual SDF boxen. 
+* It's used to create new accounts to the system, 'bootstrapping' your access :)
+
 It's a nice reference or play on words, isn't it?
 # On the System
 As a prevalidated user, you don't get access to a actual shell, instead you get their custom restricted shell, called 'psh'. 
